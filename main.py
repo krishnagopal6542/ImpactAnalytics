@@ -17,7 +17,7 @@ def probability_of_attendance(prev_attendance, missing_attendance, number_of_day
 
 
 def calculate_probability(day):
-    # Initialize counters for the number of ways and the last day missed
+    # Initialize counters
     ans, last_day_miss = 0, 0
     ans, last_day_miss = probability_of_attendance("", 0, 0, False, ans, last_day_miss, day)
 
